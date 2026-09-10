@@ -5,9 +5,33 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Portfolio Data Analyst")
+st.markdown("""
+<h1 style="
+    text-align:center;
+    font-size:72px;
+    font-weight:800;
+    margin-bottom:10px;
+    background: linear-gradient(90deg, #ff5fcf, #c03cff, #6f2dbd);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+">
+Portfolio Data Analyst
+</h1>
+""", unsafe_allow_html=True)
 
-st.markdown("### Analyse de données - Automatisation - Data Visualisation")
+st.markdown("""
+<h3 style="
+    text-align:center;
+    color:#a978d8;
+    font-size:28px;
+    font-weight:500;
+    margin-top:0px;
+    margin-bottom:45px;
+">
+Analyse de données - Automatisation - Data Visualisation
+</h3>
+""", unsafe_allow_html=True)
 
 st.subheader("A propos")
 
@@ -24,11 +48,17 @@ st.divider()
 
 st.markdown("""
 <h2 style="
-    color:#D946EF;
-    font-size:30px;
-    margin-top:35px;
+    text-align:center;
+    font-size:46px;
+    font-weight:750;
+    margin-top:50px;
+    margin-bottom:25px;
+    background: linear-gradient(90deg, #ff9adf, #ff4fb8, #d63384);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
 ">
-Projet fil rouge — CPAM du Val-de-Lys
+Projet fil rouge : CPAM du Val-de-Lys
 </h2>
 """, unsafe_allow_html=True)
 
@@ -39,7 +69,7 @@ st.write(
 )
 
 st.caption("Projet réalisé à partir de données entièrement fictives. - Guardia School")
-st.caption("Palette violette et rose choisie volontairement pour distinguer ce projet fictif d’une CPAM réelle.")
+st.caption("🎨Palette violette et rose choisie volontairement pour distinguer ce projet fictif d’une CPAM réelle.")
 
 st.divider()
 
