@@ -7,7 +7,30 @@ st.set_page_config(
 
 st.title("Portfolio Data Analyst")
 
-st.subheader("Projet fil rouge — CPAM du Val-de-Lys")
+st.markdown("### Analyse de données - Automatisation - Data Visualisation")
+
+st.subheader("A propos")
+
+st.markdown("""
+Je m'appelle Julie Planchon, Data Analyst en formation, spécialisée dans l’analyse,
+l’automatisation et la création d’outils d’aide à la décision.
+
+Après plusieurs années d’expérience professionnelle, j’oriente aujourd’hui mon parcours
+vers la Data en combinant connaissance métier et compétences techniques, notamment en
+Python, SQL, Power BI, Excel/VBA et Streamlit.
+""")
+
+st.divider()
+
+st.markdown("""
+<h2 style="
+    color:#D946EF;
+    font-size:30px;
+    margin-top:35px;
+">
+Projet fil rouge — CPAM du Val-de-Lys
+</h2>
+""", unsafe_allow_html=True)
 
 st.write(
     "Analyse de données visant à identifier des comportements atypiques "
