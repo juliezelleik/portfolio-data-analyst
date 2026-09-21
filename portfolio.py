@@ -126,24 +126,15 @@ st.download_button(
 
 st.header("Dashboard Streamlit")
 
-st.image(
-    "images/dashboard_1.png",
-    use_container_width=True
-)
-
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image(
-        "images/dashboard_2.png",
-        use_container_width=True
-    )
+    st.image("images/dashboard_1.png", use_container_width=True)
+    st.image("images/dashboard_2.png", use_container_width=True)
 
 with col2:
-    st.image(
-        "images/dashboard_3.png",
-        use_container_width=True
-    )
+    st.image("images/dashboard_3.png", use_container_width=True)
+    st.image("images/codage_python.png", use_container_width=True)
 
 st.header("Mise en situation : un nouveau département ajouté")
 
@@ -156,13 +147,22 @@ with col1:
 with col2:
     st.image("images/mise_en_situation_2.png", use_container_width=True)
     st.image("images/mise_en_situation_4.png", use_container_width=True)
+st.image("images/codage_api.png", use_container_width=True)   
 
 st.header("Récapitulatif de l'automatisation")
 st.image("images/recap_automatisation.png", use_container_width=True)
 
 st.header("Machine Learning : Isolation Forest")
-st.image("images/machine_learning.png", use_container_width=True)
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.image("images/machine_learning.png", use_container_width=True)
+    st.image("images/machine_learning_1.png", use_container_width=True)
+
+with col2:
+    st.image("images/machine_learning_2.png", use_container_width=True)
+    st.image("images/machine_learning_3.png", use_container_width=True)
 
 st.header("Compétences mobilisées")
 st.image("images/competences.png", use_container_width=True)
-
