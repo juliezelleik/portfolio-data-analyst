@@ -362,40 +362,70 @@ st.image(
 # MACHINE LEARNING
 
 
+# MACHINE LEARNING
+
+
 st.header(
     "Machine Learning : Isolation Forest"
 )
 
+# Ligne 1
 col1, col2 = st.columns(2)
-
 
 with col1:
 
     image_avec_zoom(
-        "images/machine_learning.png",
+        "images/machine_learning1.png",
         "Machine Learning - Isolation Forest",
         "zoom_ml_1"
     )
 
+with col2:
+
     image_avec_zoom(
-        "images/machine_learning_1.png",
+        "images/machine_learning2.png",
         "Machine Learning - Résultats",
         "zoom_ml_2"
     )
 
 
-with col2:
+# Ligne 2
+col1, col2 = st.columns(2)
+
+with col1:
 
     image_avec_zoom(
-        "images/machine_learning_2.png",
+        "images/machine_learning3.png",
         "Machine Learning - Intégration Streamlit",
         "zoom_ml_3"
     )
 
+with col2:
+
     image_avec_zoom(
-        "images/machine_learning_3.png",
+        "images/machine_learning4.png",
         "Machine Learning - Codage",
         "zoom_ml_4"
+    )
+
+
+# Ligne 3
+col1, col2 = st.columns(2)
+
+with col1:
+
+    image_avec_zoom(
+        "images/machine_learning5.png",
+        "Machine Learning - Image 5",
+        "zoom_ml_5"
+    )
+
+with col2:
+
+    image_avec_zoom(
+        "images/machine_learning6.png",
+        "Machine Learning - Image 6",
+        "zoom_ml_6"
     )
 
 
