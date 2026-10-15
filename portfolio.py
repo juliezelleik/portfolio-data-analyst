@@ -604,10 +604,10 @@ def page_cpam():
         "aide à la décision, pas une preuve de fraude : la décision reste "
         "humaine.",
         images=[
-            ("images/powerbi_1.png", "Dashboard Power BI - Vue 1"),
-            ("images/powerbi_2.png", "Dashboard Power BI - Vue 2"),
-            ("images/powerbi_3.png", "Dashboard Power BI - Vue 3"),
-            ("images/powerbi_4.png", "Dashboard Power BI - Vue 4"),
+            ("images/powerbi_1.png", "Dashboard Power BI - Synthèse Direction"),
+            ("images/powerbi_2.png", "Dashboard Power BI - Professionnels de santé"),
+            ("images/powerbi_3.png", "Dashboard Power BI - Analyse des atypies"),
+            ("images/powerbi_4.png", "Dashboard Power BI - Ciblage et contrôle"),
         ],
         prefixe="powerbi",
         extra=bouton_rapport
@@ -623,9 +623,9 @@ def page_cpam():
         "Streamlit sert de couche de restitution : il lit les données et "
         "réagit aux choix de l'utilisateur.",
         images=[
-            ("images/dashboard_1.png", "Dashboard Streamlit - Vue 1"),
-            ("images/dashboard_3.png", "Dashboard Streamlit - Vue 3"),
-            ("images/dashboard_2.png", "Dashboard Streamlit - Vue 2"),
+            ("images/dashboard_1.png", "Dashboard Streamlit - Accueil"),
+            ("images/dashboard_2.png", "Dashboard Streamlit - Vue PS"),
+            ("images/dashboard_3.png", "Dashboard Streamlit - Vue Atypie"),
             ("images/codage_python.png", "Codage Streamlit"),
         ],
         prefixe="dashboard"
@@ -665,11 +665,12 @@ def page_cpam():
         "humaine sans la remplacer.",
         images=[
             ("images/machine_learning1.png", "Machine Learning - Isolation Forest"),
-            ("images/machine_learning2.png", "Machine Learning - Résultats"),
+            ("images/machine_learning2.png", "Machine Learning - Distribution des scores"),
+            ("images/machine_learning2bis.png", "Machine Learning - Vérification du résultat"),
             ("images/machine_learning3.png", "Machine Learning - Intégration Streamlit"),
             ("images/machine_learning4.png", "Machine Learning - Codage"),
-            ("images/machine_learning5.png", "Machine Learning - Image 5"),
-            ("images/machine_learning6.png", "Machine Learning - Image 6"),
+            ("images/machine_learning5.png", "Machine Learning - Fonctionnement"),
+            ("images/machine_learning6.png", "Machine Learning - Codage"),
         ],
         prefixe="ml",
         extra=chiffres_ml
