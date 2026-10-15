@@ -634,7 +634,7 @@ def page_cpam():
     section(
         7,
         "Automatisation : un nouveau département ajouté",
-        "Un département intégré sans toucher au code",
+        "Un nouveau département ajouté automatiquement au dashboard",
         "Intégrer un nouveau département avec le minimum d'actions manuelles.",
         "Faire dialoguer SQL, fichiers CSV, API locale et Streamlit sans "
         "modifier le code du tableau de bord. Traitement local uniquement "
