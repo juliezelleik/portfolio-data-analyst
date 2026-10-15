@@ -1,3 +1,6 @@
+import os
+import runpy
+
 import streamlit as st
 
 st.set_page_config(
@@ -434,24 +437,27 @@ Python, SQL, Power BI, Excel/VBA et Streamlit.
 
             st.markdown(
                 '<div class="carte-titre">Projet Data et jeux vidéo</div>'
-                '<span class="pastille pastille-encours">En cours</span>',
+                '<span class="pastille pastille-termine">Terminé</span>'
+                '<span class="pastille pastille-fictif">Projet fictif</span>',
                 unsafe_allow_html=True
             )
 
             st.markdown(
                 '<div class="carte-texte">'
-                'Un nouveau projet data autour des jeux vidéo, '
-                'en cours de construction.'
+                'Tableau de bord Streamlit sur le pré-lancement d\'un jeu mobile '
+                'fictif : rentabilité, satisfaction des joueurs, actions à mettre '
+                'en place avant le lancement officiel.'
                 '</div>',
                 unsafe_allow_html=True
             )
 
-            if st.button(
+            st.button(
                 "Ouvrir le projet",
                 key="btn_jeux_video",
-                use_container_width=True
-            ):
-                projet_jeux_video()
+                use_container_width=True,
+                on_click=aller,
+                args=("zeloria",)
+            )
 
     with col2:
 
@@ -604,10 +610,10 @@ def page_cpam():
         "aide à la décision, pas une preuve de fraude : la décision reste "
         "humaine.",
         images=[
-            ("images/powerbi_1.png", "Dashboard Power BI - Synthèse Direction"),
-            ("images/powerbi_2.png", "Dashboard Power BI - Professionnels de santé"),
-            ("images/powerbi_3.png", "Dashboard Power BI - Analyse des atypies"),
-            ("images/powerbi_4.png", "Dashboard Power BI - Ciblage et contrôle"),
+            ("images/powerbi_1.png", "Dashboard Power BI - Vue 1"),
+            ("images/powerbi_2.png", "Dashboard Power BI - Vue 2"),
+            ("images/powerbi_3.png", "Dashboard Power BI - Vue 3"),
+            ("images/powerbi_4.png", "Dashboard Power BI - Vue 4"),
         ],
         prefixe="powerbi",
         extra=bouton_rapport
@@ -623,9 +629,9 @@ def page_cpam():
         "Streamlit sert de couche de restitution : il lit les données et "
         "réagit aux choix de l'utilisateur.",
         images=[
-            ("images/dashboard_1.png", "Dashboard Streamlit - Accueil"),
-            ("images/dashboard_2.png", "Dashboard Streamlit - Vue PS"),
-            ("images/dashboard_3.png", "Dashboard Streamlit - Vue Atypie"),
+            ("images/dashboard_1.png", "Dashboard Streamlit - Vue 1"),
+            ("images/dashboard_3.png", "Dashboard Streamlit - Vue 3"),
+            ("images/dashboard_2.png", "Dashboard Streamlit - Vue 2"),
             ("images/codage_python.png", "Codage Streamlit"),
         ],
         prefixe="dashboard"
@@ -665,12 +671,11 @@ def page_cpam():
         "humaine sans la remplacer.",
         images=[
             ("images/machine_learning1.png", "Machine Learning - Isolation Forest"),
-            ("images/machine_learning2.png", "Machine Learning - Distribution des scores"),
-            ("images/machine_learning2bis.png", "Machine Learning - Vérification du résultat"),
+            ("images/machine_learning2.png", "Machine Learning - Résultats"),
             ("images/machine_learning3.png", "Machine Learning - Intégration Streamlit"),
             ("images/machine_learning4.png", "Machine Learning - Codage"),
-            ("images/machine_learning5.png", "Machine Learning - Fonctionnement"),
-            ("images/machine_learning6.png", "Machine Learning - Codage"),
+            ("images/machine_learning5.png", "Machine Learning - Image 5"),
+            ("images/machine_learning6.png", "Machine Learning - Image 6"),
         ],
         prefixe="ml",
         extra=chiffres_ml
@@ -686,7 +691,27 @@ def page_cpam():
 
 #  AFFICHAGE 
 
+def page_zeloria():
+
+    st.button(
+        "Retour à l'accueil",
+        key="btn_retour_zeloria",
+        on_click=aller,
+        args=("accueil",)
+    )
+
+    dossier = os.path.join(os.path.dirname(os.path.abspath(__file__)), "zeloria")
+    ancien_dossier = os.getcwd()
+    os.chdir(dossier)
+    try:
+        runpy.run_path("zeloria_app.py")
+    finally:
+        os.chdir(ancien_dossier)
+
+
 if st.session_state.page == "cpam":
     page_cpam()
+elif st.session_state.page == "zeloria":
+    page_zeloria()
 else:
     page_accueil()
