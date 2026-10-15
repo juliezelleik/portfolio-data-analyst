@@ -1,0 +1,451 @@
+﻿id_reponse;id_enquete;date_reponse;id_joueur;plateforme;note_satisfaction;theme;commentaire;recompense_gagnee
+ENQ-1-001;ENQ-1;2026-07-15;J2781;Android;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-1-002;ENQ-1;2026-07-20;J8290;Android;1;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-1-003;ENQ-1;2026-07-17;J2811;iOS;3;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-004;ENQ-1;2026-07-19;J2624;Android;1;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-1-005;ENQ-1;2026-07-16;J7145;iOS;2;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-006;ENQ-1;2026-07-19;J9012;Android;2;Menus;Trop de menus, je me perds;50 énergies
+ENQ-1-007;ENQ-1;2026-07-16;J2828;Android;2;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-008;ENQ-1;2026-07-17;J4566;Android;2;Menus;Trop de menus, je me perds;50 énergies
+ENQ-1-009;ENQ-1;2026-07-20;J2759;iOS;2;Affichage;Des textes coupés à l'écran;50 énergies
+ENQ-1-010;ENQ-1;2026-07-17;J7904;Android;2;Performance;Chargements trop longs;50 énergies
+ENQ-1-011;ENQ-1;2026-07-17;J7751;iOS;3;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-1-012;ENQ-1;2026-07-16;J1623;Android;2;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-1-013;ENQ-1;2026-07-20;J2242;iOS;3;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-1-014;ENQ-1;2026-07-16;J1121;iOS;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-015;ENQ-1;2026-07-15;J5123;iOS;3;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-1-016;ENQ-1;2026-07-16;J5048;Android;3;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-1-017;ENQ-1;2026-07-19;J2448;Android;3;Menus;Trop de menus, je me perds;50 énergies
+ENQ-1-018;ENQ-1;2026-07-21;J1240;Android;3;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-1-019;ENQ-1;2026-07-15;J9579;Android;3;Affichage;Des textes coupés à l'écran;50 énergies
+ENQ-1-020;ENQ-1;2026-07-15;J8685;Android;2;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-1-021;ENQ-1;2026-07-20;J6993;Android;3;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-022;ENQ-1;2026-07-18;J7905;Android;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-023;ENQ-1;2026-07-16;J7244;Android;1;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-024;ENQ-1;2026-07-20;J5752;iOS;3;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-1-025;ENQ-1;2026-07-21;J5027;Android;3;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-1-026;ENQ-1;2026-07-16;J4404;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-027;ENQ-1;2026-07-21;J3209;iOS;3;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-1-028;ENQ-1;2026-07-20;J3060;Android;1;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-1-029;ENQ-1;2026-07-17;J2165;Android;2;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-030;ENQ-1;2026-07-15;J6145;Android;3;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-031;ENQ-1;2026-07-20;J7881;Android;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-032;ENQ-1;2026-07-17;J7349;iOS;3;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-1-033;ENQ-1;2026-07-16;J7663;iOS;3;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-1-034;ENQ-1;2026-07-20;J2094;Android;2;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-1-035;ENQ-1;2026-07-21;J7576;iOS;1;Performance;Chargements trop longs;50 énergies
+ENQ-1-036;ENQ-1;2026-07-18;J4436;iOS;3;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-1-037;ENQ-1;2026-07-19;J3439;iOS;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-038;ENQ-1;2026-07-15;J4213;Android;3;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-1-039;ENQ-1;2026-07-18;J5560;iOS;2;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-040;ENQ-1;2026-07-15;J8216;iOS;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-041;ENQ-1;2026-07-21;J8802;iOS;4;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-1-042;ENQ-1;2026-07-18;J7812;iOS;2;Menus;Trop de menus, je me perds;50 énergies
+ENQ-1-043;ENQ-1;2026-07-21;J5077;Android;2;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-1-044;ENQ-1;2026-07-17;J1113;iOS;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-1-045;ENQ-1;2026-07-19;J6214;Android;3;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-1-046;ENQ-1;2026-07-17;J7875;Android;2;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-047;ENQ-1;2026-07-18;J6243;Android;3;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-1-048;ENQ-1;2026-07-16;J6212;Android;3;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-1-049;ENQ-1;2026-07-17;J3430;iOS;2;Performance;Chargements trop longs;50 énergies
+ENQ-1-050;ENQ-1;2026-07-18;J2320;Android;2;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-1-051;ENQ-1;2026-07-17;J3245;iOS;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-052;ENQ-1;2026-07-20;J5801;iOS;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-053;ENQ-1;2026-07-21;J1631;iOS;3;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-1-054;ENQ-1;2026-07-18;J5296;iOS;1;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-055;ENQ-1;2026-07-20;J7755;iOS;4;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-056;ENQ-1;2026-07-20;J3252;Android;2;Menus;Trop de menus, je me perds;50 énergies
+ENQ-1-057;ENQ-1;2026-07-19;J6955;Android;1;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-1-058;ENQ-1;2026-07-16;J9738;iOS;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-1-059;ENQ-1;2026-07-16;J4208;Android;4;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-060;ENQ-1;2026-07-16;J8263;iOS;4;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-061;ENQ-1;2026-07-21;J4659;Android;2;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-062;ENQ-1;2026-07-21;J5459;iOS;4;Menus;Trop de menus, je me perds;50 énergies
+ENQ-1-063;ENQ-1;2026-07-20;J9419;iOS;3;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-064;ENQ-1;2026-07-19;J4091;Android;2;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-1-065;ENQ-1;2026-07-21;J1927;iOS;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-066;ENQ-1;2026-07-17;J4508;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-067;ENQ-1;2026-07-21;J5128;Android;3;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-1-068;ENQ-1;2026-07-20;J6421;Android;1;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-1-069;ENQ-1;2026-07-19;J9025;Android;3;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-070;ENQ-1;2026-07-16;J5477;iOS;2;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-1-071;ENQ-1;2026-07-20;J4372;Android;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-072;ENQ-1;2026-07-18;J2109;iOS;2;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-073;ENQ-1;2026-07-15;J6079;Android;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-1-074;ENQ-1;2026-07-20;J5520;iOS;1;Menus;Trop de menus, je me perds;50 énergies
+ENQ-1-075;ENQ-1;2026-07-18;J3908;Android;1;Performance;Chargements trop longs;50 énergies
+ENQ-1-076;ENQ-1;2026-07-16;J2424;iOS;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-077;ENQ-1;2026-07-20;J4638;Android;2;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-1-078;ENQ-1;2026-07-16;J7769;iOS;4;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-079;ENQ-1;2026-07-18;J9726;iOS;3;Performance;Chargements trop longs;50 énergies
+ENQ-1-080;ENQ-1;2026-07-16;J6387;Android;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-1-081;ENQ-1;2026-07-20;J1381;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-082;ENQ-1;2026-07-19;J6297;iOS;3;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-1-083;ENQ-1;2026-07-16;J1682;iOS;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-084;ENQ-1;2026-07-17;J3009;Android;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-085;ENQ-1;2026-07-21;J1084;iOS;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-1-086;ENQ-1;2026-07-21;J9336;iOS;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-087;ENQ-1;2026-07-21;J1228;iOS;1;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-088;ENQ-1;2026-07-19;J7443;iOS;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-089;ENQ-1;2026-07-19;J8162;Android;4;Menus;Trop de menus, je me perds;50 énergies
+ENQ-1-090;ENQ-1;2026-07-18;J9867;Android;2;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-1-091;ENQ-1;2026-07-21;J6765;Android;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-092;ENQ-1;2026-07-15;J2257;Android;3;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-093;ENQ-1;2026-07-16;J5071;iOS;2;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-1-094;ENQ-1;2026-07-15;J8553;Android;3;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-1-095;ENQ-1;2026-07-17;J5545;iOS;3;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-1-096;ENQ-1;2026-07-18;J7285;Android;3;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-1-097;ENQ-1;2026-07-20;J3523;Android;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-098;ENQ-1;2026-07-18;J4597;Android;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-099;ENQ-1;2026-07-15;J5536;Android;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-100;ENQ-1;2026-07-21;J7185;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-101;ENQ-1;2026-07-15;J2890;Android;2;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-1-102;ENQ-1;2026-07-15;J3790;Android;2;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-1-103;ENQ-1;2026-07-17;J4858;Android;3;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-1-104;ENQ-1;2026-07-15;J7917;iOS;2;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-105;ENQ-1;2026-07-20;J6910;iOS;2;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-106;ENQ-1;2026-07-21;J7555;Android;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-107;ENQ-1;2026-07-19;J3585;Android;3;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-108;ENQ-1;2026-07-17;J6345;Android;2;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-1-109;ENQ-1;2026-07-21;J4152;iOS;2;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-110;ENQ-1;2026-07-16;J6216;Android;1;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-1-111;ENQ-1;2026-07-19;J8258;iOS;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-112;ENQ-1;2026-07-21;J3463;Android;1;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-113;ENQ-1;2026-07-15;J5674;iOS;3;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-114;ENQ-1;2026-07-15;J9132;iOS;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-115;ENQ-1;2026-07-20;J2209;iOS;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-116;ENQ-1;2026-07-19;J7230;Android;3;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-1-117;ENQ-1;2026-07-21;J5170;Android;2;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-1-118;ENQ-1;2026-07-16;J6576;iOS;2;Performance;Chargements trop longs;50 énergies
+ENQ-1-119;ENQ-1;2026-07-19;J7054;iOS;2;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-1-120;ENQ-1;2026-07-15;J7319;Android;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-121;ENQ-1;2026-07-17;J2920;iOS;3;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-1-122;ENQ-1;2026-07-18;J6101;Android;2;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-1-123;ENQ-1;2026-07-18;J2239;Android;1;Affichage;Des textes coupés à l'écran;50 énergies
+ENQ-1-124;ENQ-1;2026-07-19;J5222;Android;4;Son;Le son est trop fort et criard;50 énergies
+ENQ-1-125;ENQ-1;2026-07-16;J7897;Android;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-126;ENQ-1;2026-07-16;J7941;Android;3;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-127;ENQ-1;2026-07-20;J6756;Android;2;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-1-128;ENQ-1;2026-07-18;J2636;iOS;3;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-1-129;ENQ-1;2026-07-20;J7256;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-130;ENQ-1;2026-07-21;J1851;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-131;ENQ-1;2026-07-17;J1445;Android;1;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-132;ENQ-1;2026-07-16;J8957;Android;3;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-133;ENQ-1;2026-07-19;J6126;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-134;ENQ-1;2026-07-17;J4929;Android;2;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-1-135;ENQ-1;2026-07-20;J3603;Android;3;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-1-136;ENQ-1;2026-07-15;J6280;iOS;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-1-137;ENQ-1;2026-07-19;J5943;Android;2;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-1-138;ENQ-1;2026-07-20;J3144;Android;4;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-1-139;ENQ-1;2026-07-17;J8860;Android;4;Performance;Chargements trop longs;50 énergies
+ENQ-1-140;ENQ-1;2026-07-21;J5080;Android;2;Affichage;Des textes coupés à l'écran;50 énergies
+ENQ-1-141;ENQ-1;2026-07-21;J3922;Android;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-1-142;ENQ-1;2026-07-19;J5343;iOS;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-1-143;ENQ-1;2026-07-17;J5607;Android;3;Affichage;Des textes coupés à l'écran;50 énergies
+ENQ-1-144;ENQ-1;2026-07-19;J1842;Android;2;Menus;Les menus sont surchargés;50 énergies
+ENQ-1-145;ENQ-1;2026-07-16;J4960;iOS;2;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-1-146;ENQ-1;2026-07-19;J5664;Android;2;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-1-147;ENQ-1;2026-07-16;J7354;Android;2;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-1-148;ENQ-1;2026-07-20;J5753;iOS;4;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-1-149;ENQ-1;2026-07-17;J8625;Android;3;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-1-150;ENQ-1;2026-07-18;J3718;Android;3;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-001;ENQ-2;2026-08-16;J2150;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-002;ENQ-2;2026-08-18;J7890;Android;1;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-003;ENQ-2;2026-08-18;J8207;iOS;3;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-2-004;ENQ-2;2026-08-18;J9714;Android;2;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-2-005;ENQ-2;2026-08-20;J3355;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-006;ENQ-2;2026-08-17;J1674;iOS;3;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-007;ENQ-2;2026-08-20;J9100;Android;2;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-008;ENQ-2;2026-08-21;J3385;Android;2;Menus;Les menus sont surchargés;50 énergies
+ENQ-2-009;ENQ-2;2026-08-17;J7322;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-010;ENQ-2;2026-08-21;J9365;iOS;2;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-011;ENQ-2;2026-08-19;J2232;iOS;4;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-012;ENQ-2;2026-08-21;J8577;iOS;3;Performance;Chargements trop longs;50 énergies
+ENQ-2-013;ENQ-2;2026-08-16;J4274;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-014;ENQ-2;2026-08-15;J3293;Android;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-015;ENQ-2;2026-08-19;J7597;iOS;3;Performance;Chargements trop longs;50 énergies
+ENQ-2-016;ENQ-2;2026-08-15;J2505;Android;2;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-2-017;ENQ-2;2026-08-19;J1417;iOS;1;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-2-018;ENQ-2;2026-08-21;J6589;Android;3;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-019;ENQ-2;2026-08-17;J5920;Android;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-020;ENQ-2;2026-08-21;J8717;Android;3;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-2-021;ENQ-2;2026-08-18;J7971;iOS;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-022;ENQ-2;2026-08-18;J4699;Android;2;Performance;Chargements trop longs;50 énergies
+ENQ-2-023;ENQ-2;2026-08-18;J5200;Android;3;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-2-024;ENQ-2;2026-08-17;J3796;iOS;2;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-2-025;ENQ-2;2026-08-20;J8531;Android;2;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-2-026;ENQ-2;2026-08-17;J8896;Android;3;Affichage;Des textes coupés à l'écran;50 énergies
+ENQ-2-027;ENQ-2;2026-08-20;J9636;iOS;2;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-2-028;ENQ-2;2026-08-21;J1981;Android;3;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-029;ENQ-2;2026-08-16;J3376;Android;4;Menus;Trop de menus, je me perds;50 énergies
+ENQ-2-030;ENQ-2;2026-08-19;J9362;Android;3;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-031;ENQ-2;2026-08-15;J6922;iOS;3;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-2-032;ENQ-2;2026-08-19;J3010;iOS;4;Performance;Le jeu rame sur mon téléphone;50 énergies
+ENQ-2-033;ENQ-2;2026-08-15;J7707;iOS;1;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-2-034;ENQ-2;2026-08-15;J3033;Android;4;Performance;Chargements trop longs;50 énergies
+ENQ-2-035;ENQ-2;2026-08-17;J3352;Android;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-036;ENQ-2;2026-08-17;J3935;Android;1;Menus;Les menus sont surchargés;50 énergies
+ENQ-2-037;ENQ-2;2026-08-21;J4456;Android;3;Affichage;Des textes coupés à l'écran;50 énergies
+ENQ-2-038;ENQ-2;2026-08-17;J4405;iOS;2;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-2-039;ENQ-2;2026-08-15;J4471;iOS;2;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-2-040;ENQ-2;2026-08-19;J1005;Android;3;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-041;ENQ-2;2026-08-17;J2101;iOS;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-042;ENQ-2;2026-08-18;J9695;Android;3;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-043;ENQ-2;2026-08-20;J8115;iOS;3;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-044;ENQ-2;2026-08-19;J5344;Android;3;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-2-045;ENQ-2;2026-08-15;J8374;Android;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-046;ENQ-2;2026-08-19;J8106;Android;3;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-047;ENQ-2;2026-08-20;J6611;Android;4;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-048;ENQ-2;2026-08-17;J2613;Android;2;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-2-049;ENQ-2;2026-08-16;J6936;Android;3;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-050;ENQ-2;2026-08-18;J7093;iOS;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-051;ENQ-2;2026-08-19;J3110;Android;3;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-052;ENQ-2;2026-08-20;J1920;iOS;3;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-053;ENQ-2;2026-08-16;J7721;Android;3;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-054;ENQ-2;2026-08-20;J3618;iOS;3;Menus;Les menus sont surchargés;50 énergies
+ENQ-2-055;ENQ-2;2026-08-17;J5423;iOS;2;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-056;ENQ-2;2026-08-17;J4171;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-057;ENQ-2;2026-08-18;J1832;iOS;2;Menus;Trop de menus, je me perds;50 énergies
+ENQ-2-058;ENQ-2;2026-08-21;J7528;Android;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-059;ENQ-2;2026-08-19;J4179;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-060;ENQ-2;2026-08-16;J3714;iOS;2;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-061;ENQ-2;2026-08-17;J2247;Android;1;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-062;ENQ-2;2026-08-20;J8433;iOS;2;Affichage;Des textes coupés à l'écran;50 énergies
+ENQ-2-063;ENQ-2;2026-08-21;J4663;Android;4;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-064;ENQ-2;2026-08-18;J5091;Android;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-065;ENQ-2;2026-08-21;J9493;iOS;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-066;ENQ-2;2026-08-16;J3650;iOS;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-067;ENQ-2;2026-08-18;J8024;Android;2;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-068;ENQ-2;2026-08-18;J1944;Android;3;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-2-069;ENQ-2;2026-08-17;J3108;iOS;4;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-070;ENQ-2;2026-08-16;J5715;Android;5;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-071;ENQ-2;2026-08-21;J4519;Android;2;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-2-072;ENQ-2;2026-08-17;J5817;iOS;3;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-2-073;ENQ-2;2026-08-18;J6812;Android;2;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-2-074;ENQ-2;2026-08-15;J8017;Android;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-075;ENQ-2;2026-08-21;J1297;iOS;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-076;ENQ-2;2026-08-20;J4675;iOS;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-077;ENQ-2;2026-08-16;J4067;iOS;3;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-2-078;ENQ-2;2026-08-15;J8612;Android;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-079;ENQ-2;2026-08-15;J8160;Android;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-080;ENQ-2;2026-08-15;J3735;Android;2;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-2-081;ENQ-2;2026-08-18;J5198;Android;4;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-082;ENQ-2;2026-08-18;J6878;iOS;5;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-083;ENQ-2;2026-08-18;J3894;iOS;3;Menus;Les menus sont surchargés;50 énergies
+ENQ-2-084;ENQ-2;2026-08-20;J6656;Android;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-085;ENQ-2;2026-08-19;J5880;iOS;3;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-2-086;ENQ-2;2026-08-21;J8678;Android;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-087;ENQ-2;2026-08-16;J8722;Android;3;Menus;Les menus sont surchargés;50 énergies
+ENQ-2-088;ENQ-2;2026-08-21;J1297;iOS;3;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-2-089;ENQ-2;2026-08-19;J7903;Android;1;Connexion;Je suis déconnecté en pleine partie;50 énergies
+ENQ-2-090;ENQ-2;2026-08-15;J7466;Android;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-091;ENQ-2;2026-08-16;J7567;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-092;ENQ-2;2026-08-16;J4846;iOS;2;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-093;ENQ-2;2026-08-18;J3908;Android;1;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-094;ENQ-2;2026-08-15;J1793;Android;3;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-095;ENQ-2;2026-08-15;J8875;Android;3;Performance;Chargements trop longs;50 énergies
+ENQ-2-096;ENQ-2;2026-08-18;J6861;iOS;4;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-097;ENQ-2;2026-08-21;J5038;iOS;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-098;ENQ-2;2026-08-17;J2398;Android;2;Menus;Les menus sont surchargés;50 énergies
+ENQ-2-099;ENQ-2;2026-08-20;J5618;Android;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-100;ENQ-2;2026-08-19;J8623;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-101;ENQ-2;2026-08-19;J7292;iOS;3;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-102;ENQ-2;2026-08-16;J7599;Android;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-103;ENQ-2;2026-08-17;J2159;Android;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-104;ENQ-2;2026-08-20;J9931;Android;1;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-105;ENQ-2;2026-08-21;J4095;Android;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-106;ENQ-2;2026-08-18;J5965;Android;3;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-107;ENQ-2;2026-08-15;J9514;Android;2;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-108;ENQ-2;2026-08-16;J3449;iOS;3;Son;Le son est trop fort et criard;50 énergies
+ENQ-2-109;ENQ-2;2026-08-17;J8027;Android;4;Menus;Les menus sont surchargés;50 énergies
+ENQ-2-110;ENQ-2;2026-08-15;J7664;Android;2;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-2-111;ENQ-2;2026-08-19;J4223;iOS;2;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-112;ENQ-2;2026-08-21;J2376;iOS;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-113;ENQ-2;2026-08-16;J8037;Android;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-114;ENQ-2;2026-08-19;J1602;Android;4;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;50 énergies
+ENQ-2-115;ENQ-2;2026-08-18;J8565;iOS;3;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-2-116;ENQ-2;2026-08-16;J9289;iOS;1;Menus;Trop de menus, je me perds;50 énergies
+ENQ-2-117;ENQ-2;2026-08-16;J2380;Android;2;Son;Impossible de baisser la voix des créatures;50 énergies
+ENQ-2-118;ENQ-2;2026-08-16;J5309;iOS;3;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-119;ENQ-2;2026-08-19;J3294;iOS;2;Boutique;Les prix de la boutique sont trop élevés;50 énergies
+ENQ-2-120;ENQ-2;2026-08-19;J3247;Android;3;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-2-121;ENQ-2;2026-08-15;J5090;Android;1;Connexion;Impossible de me connecter le soir;50 énergies
+ENQ-2-122;ENQ-2;2026-08-16;J9474;Android;2;Menus;Trop de menus, je me perds;50 énergies
+ENQ-2-123;ENQ-2;2026-08-19;J5737;iOS;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-124;ENQ-2;2026-08-16;J8143;Android;2;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-125;ENQ-2;2026-08-19;J5064;Android;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-126;ENQ-2;2026-08-16;J7371;Android;4;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-127;ENQ-2;2026-08-16;J9431;Android;3;Performance;Chargements trop longs;50 énergies
+ENQ-2-128;ENQ-2;2026-08-19;J7718;iOS;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-129;ENQ-2;2026-08-16;J9134;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-130;ENQ-2;2026-08-16;J3628;Android;3;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-131;ENQ-2;2026-08-16;J2829;iOS;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-132;ENQ-2;2026-08-18;J4018;iOS;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-133;ENQ-2;2026-08-21;J3937;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-134;ENQ-2;2026-08-21;J4662;Android;2;Affichage;Une créature disparaît parfois de l'écran;50 énergies
+ENQ-2-135;ENQ-2;2026-08-16;J8809;Android;3;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-2-136;ENQ-2;2026-08-16;J2042;iOS;3;Performance;Chargements trop longs;50 énergies
+ENQ-2-137;ENQ-2;2026-08-16;J4082;Android;2;Récompenses;Trop de récompenses à récupérer partout;50 énergies
+ENQ-2-138;ENQ-2;2026-08-16;J2850;iOS;4;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-2-139;ENQ-2;2026-08-21;J9353;Android;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-140;ENQ-2;2026-08-16;J2804;iOS;2;Performance;Chargements trop longs;50 énergies
+ENQ-2-141;ENQ-2;2026-08-21;J3626;iOS;2;Son;Le cri du personnage fait mal aux oreilles;50 énergies
+ENQ-2-142;ENQ-2;2026-08-21;J5326;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-143;ENQ-2;2026-08-19;J9685;iOS;3;Menus;Trop de menus, je me perds;50 énergies
+ENQ-2-144;ENQ-2;2026-08-19;J2960;iOS;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-145;ENQ-2;2026-08-16;J8536;Android;2;Boutique;Je ne comprends pas ce que contiennent les offres;50 énergies
+ENQ-2-146;ENQ-2;2026-08-19;J8653;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-147;ENQ-2;2026-08-19;J7476;Android;1;Récompenses;Les récompenses quotidiennes sont trop nombreuses;50 énergies
+ENQ-2-148;ENQ-2;2026-08-15;J5959;Android;5;Rien à changer;Le jeu est super, merci;50 énergies
+ENQ-2-149;ENQ-2;2026-08-20;J3995;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;50 énergies
+ENQ-2-150;ENQ-2;2026-08-20;J4959;Android;2;Menus;Je ne trouve pas où soigner mes créatures;50 énergies
+ENQ-3-001;ENQ-3;2026-09-16;J7748;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-002;ENQ-3;2026-09-17;J6454;iOS;2;Affichage;Une créature disparaît parfois de l'écran;1 oeuf rare
+ENQ-3-003;ENQ-3;2026-09-15;J1337;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-004;ENQ-3;2026-09-18;J1537;Android;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;1 oeuf rare
+ENQ-3-005;ENQ-3;2026-09-17;J1446;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-006;ENQ-3;2026-09-19;J5032;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-007;ENQ-3;2026-09-20;J4005;iOS;3;Menus;Les menus sont surchargés;1 oeuf rare
+ENQ-3-008;ENQ-3;2026-09-16;J5140;Android;4;Menus;Je ne trouve pas où soigner mes créatures;1 oeuf rare
+ENQ-3-009;ENQ-3;2026-09-19;J4242;Android;3;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-010;ENQ-3;2026-09-18;J9996;Android;3;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-011;ENQ-3;2026-09-15;J7184;iOS;3;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-012;ENQ-3;2026-09-21;J4045;Android;1;Performance;Chargements trop longs;1 oeuf rare
+ENQ-3-013;ENQ-3;2026-09-18;J1800;Android;2;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-014;ENQ-3;2026-09-20;J2992;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-015;ENQ-3;2026-09-17;J9144;Android;2;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-016;ENQ-3;2026-09-20;J2352;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-017;ENQ-3;2026-09-20;J5205;Android;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-018;ENQ-3;2026-09-15;J8892;iOS;1;Menus;Je ne trouve pas où soigner mes créatures;1 oeuf rare
+ENQ-3-019;ENQ-3;2026-09-15;J3728;Android;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-020;ENQ-3;2026-09-19;J6910;Android;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-021;ENQ-3;2026-09-18;J7983;Android;2;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-022;ENQ-3;2026-09-18;J7151;Android;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-023;ENQ-3;2026-09-17;J5473;iOS;4;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-024;ENQ-3;2026-09-20;J3925;Android;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-025;ENQ-3;2026-09-20;J5516;iOS;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-026;ENQ-3;2026-09-18;J3532;iOS;2;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-027;ENQ-3;2026-09-20;J5232;Android;3;Son;Impossible de baisser la voix des créatures;1 oeuf rare
+ENQ-3-028;ENQ-3;2026-09-19;J5580;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-029;ENQ-3;2026-09-16;J3560;Android;2;Performance;Le jeu rame sur mon téléphone;1 oeuf rare
+ENQ-3-030;ENQ-3;2026-09-21;J4828;iOS;2;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-031;ENQ-3;2026-09-20;J3144;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-032;ENQ-3;2026-09-16;J6555;Android;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-033;ENQ-3;2026-09-16;J4449;iOS;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-034;ENQ-3;2026-09-20;J6057;Android;2;Récompenses;Trop de récompenses à récupérer partout;1 oeuf rare
+ENQ-3-035;ENQ-3;2026-09-18;J6075;Android;3;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-036;ENQ-3;2026-09-19;J2530;iOS;1;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-037;ENQ-3;2026-09-16;J8173;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-038;ENQ-3;2026-09-21;J3024;Android;2;Son;Le son est trop fort et criard;1 oeuf rare
+ENQ-3-039;ENQ-3;2026-09-16;J7070;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-040;ENQ-3;2026-09-19;J7453;Android;2;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-041;ENQ-3;2026-09-18;J2101;iOS;3;Menus;Je ne trouve pas où soigner mes créatures;1 oeuf rare
+ENQ-3-042;ENQ-3;2026-09-21;J7812;iOS;2;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-043;ENQ-3;2026-09-19;J1350;Android;3;Connexion;Je suis déconnecté en pleine partie;1 oeuf rare
+ENQ-3-044;ENQ-3;2026-09-21;J3303;iOS;2;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-045;ENQ-3;2026-09-19;J1029;Android;1;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-046;ENQ-3;2026-09-19;J8401;Android;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;1 oeuf rare
+ENQ-3-047;ENQ-3;2026-09-17;J2891;Android;1;Menus;Les menus sont surchargés;1 oeuf rare
+ENQ-3-048;ENQ-3;2026-09-15;J2768;Android;3;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-049;ENQ-3;2026-09-17;J7604;Android;3;Affichage;Des textes coupés à l'écran;1 oeuf rare
+ENQ-3-050;ENQ-3;2026-09-16;J3725;Android;3;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-051;ENQ-3;2026-09-20;J6869;Android;3;Récompenses;Les récompenses quotidiennes sont trop nombreuses;1 oeuf rare
+ENQ-3-052;ENQ-3;2026-09-17;J5625;Android;2;Son;Le son est trop fort et criard;1 oeuf rare
+ENQ-3-053;ENQ-3;2026-09-17;J9177;Android;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-054;ENQ-3;2026-09-17;J2330;iOS;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-055;ENQ-3;2026-09-20;J1963;Android;2;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-056;ENQ-3;2026-09-15;J9100;Android;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-057;ENQ-3;2026-09-18;J5725;Android;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-058;ENQ-3;2026-09-17;J3165;Android;1;Affichage;Une créature disparaît parfois de l'écran;1 oeuf rare
+ENQ-3-059;ENQ-3;2026-09-18;J8656;Android;2;Récompenses;Trop de récompenses à récupérer partout;1 oeuf rare
+ENQ-3-060;ENQ-3;2026-09-20;J3436;Android;3;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-061;ENQ-3;2026-09-15;J5227;Android;4;Menus;Les menus sont surchargés;1 oeuf rare
+ENQ-3-062;ENQ-3;2026-09-16;J4196;Android;4;Récompenses;Trop de récompenses à récupérer partout;1 oeuf rare
+ENQ-3-063;ENQ-3;2026-09-21;J5186;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-064;ENQ-3;2026-09-18;J2356;Android;4;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-065;ENQ-3;2026-09-20;J3326;Android;4;Performance;Le jeu rame sur mon téléphone;1 oeuf rare
+ENQ-3-066;ENQ-3;2026-09-17;J2597;iOS;2;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-067;ENQ-3;2026-09-17;J7464;Android;2;Performance;Le jeu rame sur mon téléphone;1 oeuf rare
+ENQ-3-068;ENQ-3;2026-09-17;J5838;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-069;ENQ-3;2026-09-20;J5895;Android;3;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-070;ENQ-3;2026-09-15;J2021;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-071;ENQ-3;2026-09-21;J2339;Android;3;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-072;ENQ-3;2026-09-17;J3546;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-073;ENQ-3;2026-09-16;J6664;Android;2;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;1 oeuf rare
+ENQ-3-074;ENQ-3;2026-09-21;J8505;Android;3;Son;Le cri du personnage fait mal aux oreilles;1 oeuf rare
+ENQ-3-075;ENQ-3;2026-09-19;J8746;Android;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-076;ENQ-3;2026-09-19;J2177;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-077;ENQ-3;2026-09-15;J2444;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-078;ENQ-3;2026-09-16;J9112;iOS;3;Menus;Les menus sont surchargés;1 oeuf rare
+ENQ-3-079;ENQ-3;2026-09-16;J3922;Android;1;Menus;Les menus sont surchargés;1 oeuf rare
+ENQ-3-080;ENQ-3;2026-09-15;J8156;iOS;1;Performance;Le jeu rame sur mon téléphone;1 oeuf rare
+ENQ-3-081;ENQ-3;2026-09-18;J8651;iOS;3;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-082;ENQ-3;2026-09-20;J8562;Android;2;Performance;Le jeu rame sur mon téléphone;1 oeuf rare
+ENQ-3-083;ENQ-3;2026-09-17;J1570;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-084;ENQ-3;2026-09-21;J9099;Android;4;Affichage;Une créature disparaît parfois de l'écran;1 oeuf rare
+ENQ-3-085;ENQ-3;2026-09-20;J3229;iOS;1;Performance;Le jeu rame sur mon téléphone;1 oeuf rare
+ENQ-3-086;ENQ-3;2026-09-15;J3897;Android;2;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-087;ENQ-3;2026-09-16;J6356;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-088;ENQ-3;2026-09-19;J6202;Android;3;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-089;ENQ-3;2026-09-19;J7140;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-090;ENQ-3;2026-09-21;J4697;Android;2;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-091;ENQ-3;2026-09-18;J1994;iOS;3;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;1 oeuf rare
+ENQ-3-092;ENQ-3;2026-09-20;J7607;Android;3;Récompenses;Trop de récompenses à récupérer partout;1 oeuf rare
+ENQ-3-093;ENQ-3;2026-09-19;J8705;Android;4;Récompenses;Les récompenses quotidiennes sont trop nombreuses;1 oeuf rare
+ENQ-3-094;ENQ-3;2026-09-19;J1042;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-095;ENQ-3;2026-09-19;J1649;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-096;ENQ-3;2026-09-20;J3178;Android;2;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-097;ENQ-3;2026-09-15;J4066;Android;4;Récompenses;Les récompenses quotidiennes sont trop nombreuses;1 oeuf rare
+ENQ-3-098;ENQ-3;2026-09-15;J5065;Android;4;Performance;Chargements trop longs;1 oeuf rare
+ENQ-3-099;ENQ-3;2026-09-15;J7137;iOS;3;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-100;ENQ-3;2026-09-20;J1872;Android;3;Son;Le cri du personnage fait mal aux oreilles;1 oeuf rare
+ENQ-3-101;ENQ-3;2026-09-17;J3622;Android;3;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;1 oeuf rare
+ENQ-3-102;ENQ-3;2026-09-19;J9693;Android;2;Récompenses;Trop de récompenses à récupérer partout;1 oeuf rare
+ENQ-3-103;ENQ-3;2026-09-20;J3956;iOS;4;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-104;ENQ-3;2026-09-21;J6115;Android;3;Affichage;Une créature disparaît parfois de l'écran;1 oeuf rare
+ENQ-3-105;ENQ-3;2026-09-20;J5204;iOS;2;Menus;Je ne trouve pas où soigner mes créatures;1 oeuf rare
+ENQ-3-106;ENQ-3;2026-09-15;J9808;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-107;ENQ-3;2026-09-19;J2568;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-108;ENQ-3;2026-09-21;J4958;iOS;3;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-109;ENQ-3;2026-09-18;J6550;iOS;2;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-110;ENQ-3;2026-09-15;J3526;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-111;ENQ-3;2026-09-15;J8619;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-112;ENQ-3;2026-09-21;J5646;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-113;ENQ-3;2026-09-16;J8860;iOS;2;Menus;Les menus sont surchargés;1 oeuf rare
+ENQ-3-114;ENQ-3;2026-09-16;J7506;Android;3;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-115;ENQ-3;2026-09-19;J2225;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-116;ENQ-3;2026-09-21;J2752;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-117;ENQ-3;2026-09-17;J2171;iOS;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-118;ENQ-3;2026-09-17;J7187;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-119;ENQ-3;2026-09-21;J9092;Android;2;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-120;ENQ-3;2026-09-18;J2407;iOS;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-121;ENQ-3;2026-09-16;J5185;Android;2;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-122;ENQ-3;2026-09-16;J9877;Android;2;Récompenses;Les récompenses quotidiennes sont trop nombreuses;1 oeuf rare
+ENQ-3-123;ENQ-3;2026-09-20;J6364;Android;1;Récompenses;Les récompenses quotidiennes sont trop nombreuses;1 oeuf rare
+ENQ-3-124;ENQ-3;2026-09-18;J6521;Android;2;Menus;Je ne trouve pas où soigner mes créatures;1 oeuf rare
+ENQ-3-125;ENQ-3;2026-09-19;J3360;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-126;ENQ-3;2026-09-20;J1866;iOS;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-127;ENQ-3;2026-09-19;J4304;Android;4;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-128;ENQ-3;2026-09-17;J6601;iOS;3;Performance;Le jeu rame sur mon téléphone;1 oeuf rare
+ENQ-3-129;ENQ-3;2026-09-17;J5639;iOS;2;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-130;ENQ-3;2026-09-20;J1944;iOS;3;Menus;Les menus sont surchargés;1 oeuf rare
+ENQ-3-131;ENQ-3;2026-09-21;J5952;Android;3;Connexion;Impossible de me connecter le soir;1 oeuf rare
+ENQ-3-132;ENQ-3;2026-09-20;J6835;Android;3;Récompenses;Je passe mon temps à cliquer pour récupérer des cadeaux;1 oeuf rare
+ENQ-3-133;ENQ-3;2026-09-17;J7298;Android;1;Récompenses;Trop de récompenses à récupérer partout;1 oeuf rare
+ENQ-3-134;ENQ-3;2026-09-20;J1941;Android;3;Menus;Les menus sont surchargés;1 oeuf rare
+ENQ-3-135;ENQ-3;2026-09-21;J9275;Android;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-136;ENQ-3;2026-09-20;J8934;Android;2;Son;Le cri du personnage fait mal aux oreilles;1 oeuf rare
+ENQ-3-137;ENQ-3;2026-09-16;J7701;Android;4;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-138;ENQ-3;2026-09-15;J5280;iOS;5;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-139;ENQ-3;2026-09-19;J5620;iOS;2;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-140;ENQ-3;2026-09-19;J1837;Android;2;Son;Le son est trop fort et criard;1 oeuf rare
+ENQ-3-141;ENQ-3;2026-09-17;J8918;Android;2;Menus;Trop de menus, je me perds;1 oeuf rare
+ENQ-3-142;ENQ-3;2026-09-19;J3096;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare
+ENQ-3-143;ENQ-3;2026-09-19;J3001;Android;3;Menus;Je ne trouve pas où soigner mes créatures;1 oeuf rare
+ENQ-3-144;ENQ-3;2026-09-18;J1620;Android;3;Récompenses;Trop de récompenses à récupérer partout;1 oeuf rare
+ENQ-3-145;ENQ-3;2026-09-19;J6974;Android;3;Rien à changer;Le jeu est super, merci;1 oeuf rare
+ENQ-3-146;ENQ-3;2026-09-16;J3243;iOS;1;Son;Impossible de baisser la voix des créatures;1 oeuf rare
+ENQ-3-147;ENQ-3;2026-09-16;J8735;Android;4;Récompenses;Les récompenses quotidiennes sont trop nombreuses;1 oeuf rare
+ENQ-3-148;ENQ-3;2026-09-20;J4023;Android;3;Boutique;Les prix de la boutique sont trop élevés;1 oeuf rare
+ENQ-3-149;ENQ-3;2026-09-18;J7432;iOS;2;Boutique;Je ne comprends pas ce que contiennent les offres;1 oeuf rare
+ENQ-3-150;ENQ-3;2026-09-19;J3963;Android;5;Rien à changer;Rien à dire, j'adore mes créatures;1 oeuf rare

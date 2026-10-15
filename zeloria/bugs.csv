@@ -1,0 +1,91 @@
+﻿id_bug;date_signalement;categorie;gravite;plateforme;nb_joueurs_touches;statut;date_correctif;version_correctif
+BUG-001;2026-07-02;Boutique;Mineur;iOS;29;Corrigé;2026-07-18;1.0.2
+BUG-002;2026-07-02;Performance;Majeur;Android;77;Corrigé;2026-07-09;1.0.1
+BUG-003;2026-07-02;Menus;Mineur;Android;10;Corrigé;2026-07-18;1.0.2
+BUG-004;2026-07-03;Connexion;Critique;Android;396;Corrigé;2026-07-09;1.0.1
+BUG-005;2026-07-03;Connexion;Mineur;Android;25;Corrigé;2026-07-18;1.0.2
+BUG-006;2026-07-04;Performance;Mineur;Android;23;Corrigé;2026-07-18;1.0.2
+BUG-007;2026-07-04;Connexion;Mineur;iOS;18;Corrigé;2026-07-18;1.0.2
+BUG-008;2026-07-05;Son;Mineur;iOS;23;Corrigé;2026-07-18;1.0.2
+BUG-009;2026-07-05;Performance;Mineur;Android;9;Corrigé;2026-07-18;1.0.2
+BUG-010;2026-07-07;Récompenses;Critique;Android;406;Corrigé;2026-07-18;1.0.2
+BUG-011;2026-07-08;Récompenses;Mineur;iOS;1;Corrigé;2026-07-30;1.1.0
+BUG-012;2026-07-10;Performance;Majeur;Android;76;Corrigé;2026-07-18;1.0.2
+BUG-013;2026-07-10;Menus;Mineur;iOS;16;Ouvert;;
+BUG-014;2026-07-12;Boutique;Majeur;Android;144;Corrigé;2026-07-18;1.0.2
+BUG-015;2026-07-12;Boutique;Mineur;iOS;9;Corrigé;2026-07-30;1.1.0
+BUG-016;2026-07-14;Connexion;Mineur;Android;14;Corrigé;2026-07-30;1.1.0
+BUG-017;2026-07-15;Menus;Majeur;iOS;37;Corrigé;2026-07-30;1.1.0
+BUG-018;2026-07-15;Connexion;Mineur;Android;3;Corrigé;2026-07-30;1.1.0
+BUG-019;2026-07-15;Affichage;Critique;iOS;220;Corrigé;2026-07-18;1.0.2
+BUG-020;2026-07-17;Performance;Mineur;iOS;28;Corrigé;2026-07-30;1.1.0
+BUG-021;2026-07-17;Menus;Mineur;iOS;7;Corrigé;2026-07-30;1.1.0
+BUG-022;2026-07-18;Menus;Majeur;Android;126;Corrigé;2026-07-30;1.1.0
+BUG-023;2026-07-20;Performance;Mineur;iOS;28;Corrigé;2026-07-30;1.1.0
+BUG-024;2026-07-20;Menus;Critique;iOS;66;Corrigé;2026-07-30;1.1.0
+BUG-025;2026-07-21;Récompenses;Majeur;Android;147;Corrigé;2026-07-30;1.1.0
+BUG-026;2026-07-21;Affichage;Critique;iOS;286;Corrigé;2026-07-30;1.1.0
+BUG-027;2026-07-21;Récompenses;Mineur;iOS;21;Corrigé;2026-08-08;1.1.1
+BUG-028;2026-07-22;Boutique;Mineur;Android;22;Corrigé;2026-07-30;1.1.0
+BUG-029;2026-07-23;Affichage;Critique;Android;197;Corrigé;2026-07-30;1.1.0
+BUG-030;2026-07-23;Performance;Critique;Android;407;Corrigé;2026-07-30;1.1.0
+BUG-031;2026-07-23;Boutique;Mineur;Android;6;Corrigé;2026-08-08;1.1.1
+BUG-032;2026-07-23;Affichage;Mineur;Android;14;Corrigé;2026-07-30;1.1.0
+BUG-033;2026-07-23;Récompenses;Critique;iOS;317;Corrigé;2026-07-30;1.1.0
+BUG-034;2026-07-24;Connexion;Mineur;iOS;9;Corrigé;2026-08-08;1.1.1
+BUG-035;2026-07-27;Connexion;Majeur;Android;101;Corrigé;2026-08-08;1.1.1
+BUG-036;2026-07-27;Performance;Majeur;Android;137;Corrigé;2026-08-08;1.1.1
+BUG-037;2026-07-27;Boutique;Mineur;Android;19;Corrigé;2026-08-08;1.1.1
+BUG-038;2026-07-27;Connexion;Mineur;Android;26;Corrigé;2026-08-08;1.1.1
+BUG-039;2026-07-27;Son;Mineur;Android;25;Corrigé;2026-08-08;1.1.1
+BUG-040;2026-07-28;Menus;Majeur;Android;25;Corrigé;2026-08-08;1.1.1
+BUG-041;2026-07-28;Son;Mineur;iOS;23;Corrigé;2026-08-08;1.1.1
+BUG-042;2026-07-28;Menus;Mineur;iOS;1;Corrigé;2026-08-08;1.1.1
+BUG-043;2026-07-30;Performance;Mineur;Android;17;Corrigé;2026-08-20;1.1.2
+BUG-044;2026-08-03;Son;Mineur;Android;22;Corrigé;2026-08-20;1.1.2
+BUG-045;2026-08-03;Performance;Mineur;Android;17;Corrigé;2026-08-20;1.1.2
+BUG-046;2026-08-08;Connexion;Mineur;Android;22;Corrigé;2026-08-20;1.1.2
+BUG-047;2026-08-08;Menus;Mineur;Android;4;Corrigé;2026-08-20;1.1.2
+BUG-048;2026-08-08;Connexion;Majeur;iOS;82;En cours;;
+BUG-049;2026-08-10;Affichage;Mineur;Android;8;Corrigé;2026-08-20;1.1.2
+BUG-050;2026-08-11;Son;Majeur;Android;148;Corrigé;2026-08-20;1.1.2
+BUG-051;2026-08-13;Performance;Mineur;Android;25;Corrigé;2026-09-03;1.2.0
+BUG-052;2026-08-16;Affichage;Majeur;Android;128;Corrigé;2026-08-20;1.1.2
+BUG-053;2026-08-17;Menus;Majeur;Android;25;Corrigé;2026-09-03;1.2.0
+BUG-054;2026-08-19;Récompenses;Mineur;Android;4;Corrigé;2026-09-03;1.2.0
+BUG-055;2026-08-20;Affichage;Mineur;iOS;8;Corrigé;2026-09-03;1.2.0
+BUG-056;2026-08-20;Performance;Majeur;Android;58;Corrigé;2026-09-03;1.2.0
+BUG-057;2026-08-20;Performance;Majeur;iOS;63;Corrigé;2026-09-03;1.2.0
+BUG-058;2026-08-20;Son;Majeur;iOS;143;Corrigé;2026-09-03;1.2.0
+BUG-059;2026-08-21;Boutique;Majeur;Android;38;Corrigé;2026-09-03;1.2.0
+BUG-060;2026-08-23;Menus;Majeur;Android;54;Corrigé;2026-09-03;1.2.0
+BUG-061;2026-08-23;Affichage;Majeur;Android;46;Corrigé;2026-09-03;1.2.0
+BUG-062;2026-08-25;Récompenses;Majeur;Android;17;Corrigé;2026-09-03;1.2.0
+BUG-063;2026-08-26;Son;Mineur;Android;8;Ouvert;;
+BUG-064;2026-08-26;Son;Mineur;Android;27;Corrigé;2026-09-14;1.2.1
+BUG-065;2026-08-27;Affichage;Majeur;Android;33;Corrigé;2026-09-03;1.2.0
+BUG-066;2026-08-28;Affichage;Mineur;iOS;1;Corrigé;2026-09-14;1.2.1
+BUG-067;2026-08-29;Menus;Mineur;iOS;8;Corrigé;2026-09-14;1.2.1
+BUG-068;2026-08-31;Affichage;Mineur;Android;11;Corrigé;2026-09-14;1.2.1
+BUG-069;2026-09-01;Performance;Majeur;iOS;84;Corrigé;2026-09-14;1.2.1
+BUG-070;2026-09-04;Son;Majeur;Android;102;Corrigé;2026-09-14;1.2.1
+BUG-071;2026-09-05;Menus;Mineur;Android;11;Corrigé;2026-09-25;1.2.2
+BUG-072;2026-09-06;Connexion;Mineur;Android;8;Ouvert;;
+BUG-073;2026-09-06;Menus;Mineur;iOS;2;Corrigé;2026-09-25;1.2.2
+BUG-074;2026-09-09;Connexion;Mineur;Android;25;Corrigé;2026-09-25;1.2.2
+BUG-075;2026-09-09;Affichage;Mineur;Android;24;Corrigé;2026-09-25;1.2.2
+BUG-076;2026-09-09;Menus;Mineur;Android;14;En cours;;
+BUG-077;2026-09-10;Affichage;Mineur;iOS;8;En cours;;
+BUG-078;2026-09-11;Performance;Majeur;Android;69;Corrigé;2026-09-25;1.2.2
+BUG-079;2026-09-13;Performance;Mineur;Android;24;Corrigé;2026-09-25;1.2.2
+BUG-080;2026-09-14;Performance;Majeur;Android;114;Corrigé;2026-09-25;1.2.2
+BUG-081;2026-09-14;Connexion;Majeur;Android;119;Corrigé;2026-09-25;1.2.2
+BUG-082;2026-09-14;Affichage;Majeur;iOS;30;Corrigé;2026-09-25;1.2.2
+BUG-083;2026-09-16;Affichage;Mineur;Android;26;En cours;;
+BUG-084;2026-09-16;Boutique;Mineur;iOS;22;En cours;;
+BUG-085;2026-09-19;Connexion;Majeur;iOS;102;En cours;;
+BUG-086;2026-09-19;Boutique;Mineur;Android;2;Ouvert;;
+BUG-087;2026-09-21;Récompenses;Majeur;Android;73;En cours;;
+BUG-088;2026-09-22;Menus;Mineur;Android;24;En cours;;
+BUG-089;2026-09-23;Menus;Mineur;iOS;21;Ouvert;;
+BUG-090;2026-09-24;Performance;Majeur;Android;134;Ouvert;;
