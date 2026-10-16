@@ -444,12 +444,10 @@ Python, SQL, Power BI, Excel/VBA et Streamlit.
 
             st.markdown(
                 '<div class="carte-texte">'
-                'Tableau de bord Streamlit sur le pré-lancement d\'un jeu mobile '
-                'fictif : rentabilité, satisfaction des joueurs, actions à mettre '
-                'en place avant le lancement officiel.'
+                'Évaluer la rentabilité d\'un jeu free-to-play après son lancement '
+                'et fiabiliser les chiffres pour décider des priorités.'
                 '</div>',
                 unsafe_allow_html=True
-            )
 
             st.button(
                 "Ouvrir le projet",
