@@ -628,10 +628,10 @@ def page_cpam():
         "Streamlit sert de couche de restitution : il lit les données et "
         "réagit aux choix de l'utilisateur.",
         images=[
-            ("images/dashboard_1.png", "Dashboard Streamlit - Vue 1"),
-            ("images/dashboard_3.png", "Dashboard Streamlit - Vue 3"),
-            ("images/dashboard_2.png", "Dashboard Streamlit - Vue 2"),
-            ("images/codage_python.png", "Codage Streamlit"),
+            ("images/dashboard_1.png", "Dashboard Streamlit"),
+            ("images/dashboard_3.png", "Analyse approfondie de l'activité du professionnel choisi"),
+            ("images/dashboard_2.png", "Étude approfondie des alertes"),
+            ("images/codage_python.png", "Explication du codage : Streamlit"),
         ],
         prefixe="dashboard"
     )
@@ -647,11 +647,11 @@ def page_cpam():
         "Enchaîner requête SQL, fichiers CSV, API FastAPI et Streamlit, "
         "avec un pop-up de mise à jour (exemple : département 98).",
         images=[
-            ("images/mise_en_situation_1.png", "Mise en situation - Étape 1"),
-            ("images/mise_en_situation_2.png", "Mise en situation - Étape 2"),
-            ("images/mise_en_situation_3.png", "Mise en situation - Étape 3"),
-            ("images/mise_en_situation_4.png", "Mise en situation - Étape 4"),
-            ("images/codage_api.png", "Codage de l'API"),
+            ("images/mise_en_situation_1.png", "Mise en situation : un nouveau département ajouté"),
+            ("images/mise_en_situation_2.png", "Mise à jour automatique de l'API"),
+            ("images/mise_en_situation_3.png", "Mise à jour automatique du Streamlit avec un pop-up"),
+            ("images/mise_en_situation_4.png", "Résultat : le département 98 est intégré à l'analyse"),
+            ("images/codage_api.png", "Explication du codage : API"),
             ("images/recap_automatisation.png", "Récapitulatif de l'automatisation"),
         ],
         prefixe="auto"
@@ -670,11 +670,12 @@ def page_cpam():
         "humaine sans la remplacer.",
         images=[
             ("images/machine_learning1.png", "Machine Learning - Isolation Forest"),
-            ("images/machine_learning2.png", "Machine Learning - Résultats"),
+            ("images/machine_learning2.png", "Machine Learning - Distribution des scores"),
+            ("images/machine_learning2bis.png", "Machine Learning - Vérification"),
             ("images/machine_learning3.png", "Machine Learning - Intégration Streamlit"),
             ("images/machine_learning4.png", "Machine Learning - Codage"),
-            ("images/machine_learning5.png", "Machine Learning - Image 5"),
-            ("images/machine_learning6.png", "Machine Learning - Image 6"),
+            ("images/machine_learning5.png", "Machine Learning - Fonctionnement Isolation Forest"),
+            ("images/machine_learning6.png", "Machine Learning - Explication du codage"),
         ],
         prefixe="ml",
         extra=chiffres_ml
