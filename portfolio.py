@@ -448,6 +448,7 @@ Python, SQL, Power BI, Excel/VBA et Streamlit.
                 'et fiabiliser les chiffres pour décider des priorités.'
                 '</div>',
                 unsafe_allow_html=True
+            )
 
             st.button(
                 "Ouvrir le projet",
