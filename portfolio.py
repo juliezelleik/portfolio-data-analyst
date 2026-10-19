@@ -2,6 +2,7 @@ import os
 import runpy
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="Portfolio Data Analyst",
@@ -14,82 +15,49 @@ st.set_page_config(
 st.markdown("""
 <style>
 
+hr {
+    height: 2px !important;
+    background: #E89495 !important;
+    border: none !important;
+    opacity: 0.85 !important;
+}
+
 div.stButton > button {
     border-radius: 14px;
-    border: 1px solid rgba(192, 60, 255, 0.80);
+    border: none;
     background: linear-gradient(
         135deg,
-        rgba(255, 95, 207, 0.08),
-        rgba(111, 45, 189, 0.15)
+        #F9D3AC,
+        #FBB1AE,
+        #B7E2E9
     );
     font-weight: 700;
 }
 
-div.stButton > button:hover {
-    border-color: #ff5fcf;
-    box-shadow: 0 5px 18px rgba(192, 60, 255, 0.22);
+div.stButton > button p {
+    color: #3B2A45;
+    font-weight: 800;
 }
 
-div[data-testid="stVerticalBlockBorderWrapper"] {
-    border-color: rgba(192, 60, 255, 0.45);
+div.stButton > button:hover {
+    box-shadow: 0 5px 18px rgba(251, 177, 174, 0.45);
+}
+
+div[class*="st-key-carte_"] {
+    border: 2px solid #E89495 !important;
     border-radius: 18px;
 }
 
 div[data-testid="stMetric"] {
-    border: 1px solid rgba(192, 60, 255, 0.28);
+    border: 1px solid rgba(232, 148, 149, 0.28);
     padding: 14px;
     border-radius: 16px;
-    background: rgba(120, 50, 160, 0.07);
+    background: rgba(160, 144, 159, 0.07);
 }
 
 details {
-    border-color: rgba(192, 60, 255, 0.45) !important;
+    border-color: rgba(232, 148, 149, 0.45) !important;
     border-radius: 14px !important;
-}
-
-.etape {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    min-height: 96px;
-    padding: 18px 24px;
-    border-radius: 18px;
-    border: 1px solid rgba(192, 60, 255, 0.60);
-    background: linear-gradient(
-        135deg,
-        rgba(255, 95, 207, 0.14),
-        rgba(111, 45, 189, 0.24)
-    );
-    margin-bottom: 10px;
-}
-
-.etape-num {
-    flex: 0 0 56px;
-    height: 56px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 26px;
-    font-weight: 800;
-    color: white;
-    background: linear-gradient(135deg, #ff5fcf, #6f2dbd);
-}
-
-.etape-titre {
-    font-size: 26px;
-    font-weight: 800;
-    line-height: 1.2;
-    background: linear-gradient(90deg, #ff5fcf, #c03cff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.etape-resume {
-    font-size: 18px;
-    margin-top: 4px;
-    opacity: 0.9;
 }
 
 .carte-titre {
@@ -97,63 +65,10 @@ details {
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 12px;
-    background: linear-gradient(90deg, #ff5fcf, #c03cff, #6f2dbd);
+    background: linear-gradient(90deg, #E89495, #B57FD0, #8E4DB0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
-
-div[data-testid="stDownloadButton"] > button {
-    border: none;
-    border-radius: 14px;
-    padding: 14px;
-    font-weight: 800;
-    color: white;
-    background: linear-gradient(135deg, #ff5fcf, #c03cff);
-}
-
-div[data-testid="stDownloadButton"] > button:hover {
-    color: white;
-    box-shadow: 0 5px 22px rgba(255, 95, 207, 0.45);
-}
-
-div[class*="st-key-etape_"] {
-    border: 1px solid rgba(192, 60, 255, 0.60);
-    border-radius: 18px;
-    padding: 18px 24px;
-    background: linear-gradient(
-        135deg,
-        rgba(255, 95, 207, 0.14),
-        rgba(111, 45, 189, 0.24)
-    );
-    margin-bottom: 10px;
-}
-
-div[class*="st-key-etape_"] details {
-    background: rgba(255, 95, 207, 0.10);
-    border: 1px solid rgba(255, 95, 207, 0.70) !important;
-}
-
-div[class*="st-key-etape_"] details summary {
-    padding: 16px 20px;
-}
-
-div[class*="st-key-etape_"] details summary p {
-    font-size: 21px;
-    font-weight: 800;
-    color: #ff7fd8;
-}
-
-div[class*="st-key-etape_"] details summary:hover {
-    background: rgba(255, 95, 207, 0.18);
-}
-
-div[class*="st-key-etape_"] .etape {
-    border: none;
-    background: none;
-    padding: 0;
-    margin: 0;
-    min-height: 0;
 }
 
 .carte-texte {
@@ -174,13 +89,13 @@ div[class*="st-key-etape_"] .etape {
 }
 
 .pastille-fictif {
-    border: 1px solid #ff5fcf;
+    border: 1px solid #E89495;
     background: transparent;
-    color: #ff9adf;
+    color: #F7B1B2;
 }
 
-.pastille-encours { background: linear-gradient(135deg, #ff5fcf, #c03cff); }
-.pastille-termine { background: linear-gradient(135deg, #c03cff, #6f2dbd); }
+.pastille-encours { background: linear-gradient(135deg, #E89495, #8E4DB0); }
+.pastille-termine { background: linear-gradient(135deg, #8E4DB0, #692782); }
 
 </style>
 """, unsafe_allow_html=True)
@@ -194,144 +109,10 @@ if "page" not in st.session_state:
 
 def aller(page):
     st.session_state.page = page
-
-
-#  OUTILS D'AFFICHAGE 
-
-@st.dialog("Aperçu agrandi", width="large")
-def afficher_image_zoom(image, titre):
-    st.subheader(titre)
-    st.image(
-        image,
-        use_container_width=True
-    )
-
-
-def image_avec_zoom(image, titre, key):
-    st.image(
-        image,
-        use_container_width=True
-    )
-
-    if st.button(
-        "Agrandir l’image ci-dessus",
-        key=key,
-        use_container_width=True
-    ):
-        afficher_image_zoom(
-            image,
-            titre
-        )
-
-
-def grille_images(images, prefixe):
-    """Affiche les images 2 par ligne, chacune avec son bouton d'agrandissement."""
-
-    for i in range(0, len(images), 2):
-
-        colonnes = st.columns(2)
-
-        for j, (chemin, titre) in enumerate(images[i:i + 2]):
-
-            with colonnes[j]:
-
-                image_avec_zoom(
-                    chemin,
-                    titre,
-                    f"{prefixe}_{i + j}"
-                )
-
-
-def section(
-    numero,
-    titre,
-    resume,
-    enjeu,
-    defi,
-    appris,
-    images=(),
-    prefixe="",
-    extra=None,
-    bouton_bandeau=None
-):
-    """Une étape : un bandeau coloré à lire en une seconde,
-    et le détail (texte + images) dans un volet à ouvrir."""
-
-    bandeau = f"""
-        <div class="etape">
-            <div class="etape-num">{numero}</div>
-            <div>
-                <div class="etape-titre">{titre}</div>
-                <div class="etape-resume">{resume}</div>
-            </div>
-        </div>
-        """
-
-    with st.container(key=f"etape_{numero}"):
-
-        if bouton_bandeau is not None:
-
-            col_texte, col_bouton = st.columns(
-                [4, 1],
-                vertical_alignment="center"
-            )
-
-            col_texte.markdown(bandeau, unsafe_allow_html=True)
-
-            with col_bouton:
-                bouton_bandeau()
-
-        else:
-
-            st.markdown(bandeau, unsafe_allow_html=True)
-
-        if extra is not None:
-            extra()
-
-        with st.expander("Voir les détails et les images"):
-
-            c1, c2, c3 = st.columns(3)
-
-            c1.markdown(f"**Enjeu**\n\n{enjeu}")
-            c2.markdown(f"**Défi**\n\n{defi}")
-            c3.markdown(f"**Ce que j'ai appris**\n\n{appris}")
-
-            if images:
-
-                st.divider()
-
-                grille_images(images, prefixe)
-
-    st.write("")
+    st.session_state.remonter = True
 
 
 #  FENÊTRES (pop-up) 
-
-@st.dialog("La méthode Agile dans mon projet", width="large")
-def expliquer_agile():
-
-    st.markdown("""
-**Qu'est-ce que la méthode Agile ?**
-
-C'est une façon de gérer un projet par petites étapes. Au lieu de tout
-préparer au départ puis de livrer à la fin, on découpe le travail en
-petites tâches, on avance étape par étape et on ajuste en route.
-
-**Le Kanban**
-
-C'est un tableau visuel avec des colonnes (par exemple *à faire*,
-*en cours*, *terminé*). Chaque tâche est une carte qui avance de gauche à
-droite. On voit en un coup d'œil ce qui est fait, ce qui est en cours et ce
-qu'il reste à faire.
-
-**Dans ce projet**
-
-J'ai organisé le projet avec un tableau Kanban : de la préparation des
-données jusqu'au Machine Learning, chaque grande étape a été découpée en
-tâches plus petites, ce qui m'a permis de suivre l'avancement et de
-prioriser.
-""")
-
 
 @st.dialog("Projet Data et jeux vidéo")
 def projet_jeux_video():
@@ -340,46 +121,6 @@ def projet_jeux_video():
         "Ce projet est en cours de construction. "
         "Il sera présenté ici dès qu'il sera prêt."
     )
-
-
-#  BLOCS SUPPLÉMENTAIRES 
-
-def bouton_agile():
-
-    if st.button(
-        "En savoir plus sur la méthode Agile",
-        key="btn_agile",
-        use_container_width=True
-    ):
-        expliquer_agile()
-
-
-def bouton_rapport():
-
-    with open(
-        "documents/rapport_final_atypies.pdf",
-        "rb"
-    ) as pdf_file:
-
-        pdf = pdf_file.read()
-
-    st.download_button(
-        label="Télécharger le rapport d'analyse complet",
-        data=pdf,
-        file_name="rapport_final_atypies.pdf",
-        mime="application/pdf",
-        use_container_width=True
-    )
-
-
-def chiffres_ml():
-
-    c1, c2, c3, c4 = st.columns(4)
-
-    c1.metric("Professionnels analysés", "750")
-    c2.metric("Détectés atypiques", "51")
-    c3.metric("À contrôler retrouvés", "8 / 8")
-    c4.metric("Non ciblés signalés", "33")
 
 
 #  PAGE D'ACCUEIL 
@@ -392,7 +133,7 @@ def page_accueil():
         font-size:72px;
         font-weight:800;
         margin-bottom:10px;
-        background: linear-gradient(90deg, #ff5fcf, #c03cff, #6f2dbd);
+        background: linear-gradient(90deg, #E89495, #B57FD0, #8E4DB0);
         -webkit-background-clip:text;
         -webkit-text-fill-color:transparent;
         background-clip:text;
@@ -404,7 +145,7 @@ def page_accueil():
     st.markdown("""
     <h3 style="
         text-align:center;
-        color:#a978d8;
+        color:#AFDBD6;
         font-size:28px;
         font-weight:500;
         margin-top:0px;
@@ -433,7 +174,7 @@ Python, SQL, Power BI, Excel/VBA et Streamlit.
 
     with col1:
 
-        with st.container(border=True, height=300):
+        with st.container(border=True, height=300, key="carte_jeux"):
 
             st.markdown(
                 '<div class="carte-titre">Projet Data et jeux vidéo</div>'
@@ -460,7 +201,7 @@ Python, SQL, Power BI, Excel/VBA et Streamlit.
 
     with col2:
 
-        with st.container(border=True, height=300):
+        with st.container(border=True, height=300, key="carte_cpam"):
 
             st.markdown(
                 '<div class="carte-titre">Projet fil rouge : '
@@ -498,195 +239,13 @@ def page_cpam():
         args=("accueil",)
     )
 
-    st.markdown("""
-    <h2 style="
-        text-align:center;
-        font-size:46px;
-        font-weight:750;
-        margin-top:30px;
-        margin-bottom:25px;
-        background: linear-gradient(90deg, #ff9adf, #ff4fb8, #d63384);
-        -webkit-background-clip:text;
-        -webkit-text-fill-color:transparent;
-        background-clip:text;
-    ">
-    Projet fil rouge : CPAM du Val-de-Lys
-    </h2>
-    """, unsafe_allow_html=True)
-
-    st.write(
-        "Analyse de données visant à identifier des comportements atypiques "
-        "afin de prioriser les professionnels nécessitant un contrôle "
-        "et ceux nécessitant un accompagnement."
-    )
-
-    st.caption(
-        "Projet réalisé à partir de données entièrement fictives. - Guardia School"
-    )
-
-    st.caption(
-        "Palette violette et rose choisie volontairement pour distinguer "
-        "ce projet fictif d’une CPAM réelle."
-    )
-
-    st.divider()
-
-    st.header("Problématique")
-
-    st.image(
-        "images/presentation.png",
-        use_container_width=True
-    )
-
-    st.header("Le projet étape par étape")
-
-    section(
-        1,
-        "Gestion de projet en méthode Agile",
-        "Un tableau Kanban pour suivre l'avancement",
-        "Mener un projet de bout en bout, des données au Machine Learning, "
-        "avec un calendrier réaliste.",
-        "Garder une vision claire de l'avancement et savoir quoi traiter "
-        "en priorité.",
-        "Découper le travail en petites tâches visibles dans un tableau Kanban.",
-        images=[("images/kanban.png", "Tableau Kanban du projet")],
-        prefixe="agile",
-        bouton_bandeau=bouton_agile
-    )
-
-    section(
-        2,
-        "Préparation et fiabilisation des données",
-        "20 jeux de données contrôlés et nettoyés",
-        "Des analyses fiables demandent des données fiables : 20 jeux de "
-        "données (csv, txt, json) à contrôler.",
-        "Repérer les valeurs manquantes, les doublons et les types ou "
-        "formats incohérents avant toute analyse.",
-        "Contrôler et nettoyer avec Pandas et NumPy, puis appliquer des "
-        "règles de cohérence métier.",
-        images=[("images/python.png", "Préparation des données")],
-        prefixe="python"
-    )
-
-    section(
-        3,
-        "Dictionnaire de données",
-        "20 tables documentées",
-        "Que toute l'équipe parle des mêmes données.",
-        "Documenter 20 tables : nom, type, format SQL, clé, valeur NULL "
-        "autorisée ou non.",
-        "Un référentiel partagé évite les erreurs de lecture entre SQL "
-        "et Power BI.",
-        images=[("images/dictionnaire.png", "Dictionnaire de données")],
-        prefixe="dico"
-    )
-
-    section(
-        4,
-        "Modélisation et base de données SQL",
-        "Une base MySQL de 20 tables reliées",
-        "Structurer les données pour pouvoir les interroger.",
-        "Relier 20 tables par des clés primaires et étrangères, puis "
-        "importer les données dans MySQL.",
-        "Modéliser les relations, puis écrire des requêtes d'analyse, par "
-        "exemple les professionnels avec le plus d'anomalies.",
-        images=[("images/mcd_sql.png", "Modélisation et SQL")],
-        prefixe="sql"
-    )
-
-    section(
-        5,
-        "Dashboard Power BI",
-        "Un dashboard de 4 pages et un score pédagogique pour prioriser",
-        "Repérer les professionnels qui se distinguent de leur groupe de "
-        "comparaison, en croisant plusieurs indicateurs : facturation, "
-        "rejets, indus, télétransmission, activité.",
-        "Aller vers une analyse approfondie : définir des critères "
-        "d'atypie (hausse mensuelle, taux dégradé, actes par jour...) et "
-        "les regrouper dans un score pédagogique sur 20.",
-        "Le score pédagogique classe les professionnels : 8 à contrôler "
-        "(score ≥ 12) et 28 à accompagner (score de 5 à 11). C'est une "
-        "aide à la décision, pas une preuve de fraude : la décision reste "
-        "humaine.",
-        images=[
-            ("images/powerbi_1.png", "Dashboard Power BI - Vue 1"),
-            ("images/powerbi_2.png", "Dashboard Power BI - Vue 2"),
-            ("images/powerbi_3.png", "Dashboard Power BI - Vue 3"),
-            ("images/powerbi_4.png", "Dashboard Power BI - Vue 4"),
-        ],
-        prefixe="powerbi",
-        extra=bouton_rapport
-    )
-
-    section(
-        6,
-        "Dashboard Streamlit",
-        "Un outil interactif d'aide à la décision",
-        "Donner aux équipes un outil interactif d'aide à la décision.",
-        "Choisir un groupe puis un professionnel, le comparer à sa "
-        "catégorie et étudier les alertes.",
-        "Streamlit sert de couche de restitution : il lit les données et "
-        "réagit aux choix de l'utilisateur.",
-        images=[
-            ("images/dashboard_1.png", "Dashboard Streamlit"),
-            ("images/dashboard_3.png", "Analyse approfondie de l'activité du professionnel choisi"),
-            ("images/dashboard_2.png", "Étude approfondie des alertes"),
-            ("images/codage_python.png", "Explication du codage : Streamlit"),
-        ],
-        prefixe="dashboard"
-    )
-
-    section(
-        7,
-        "Automatisation : un nouveau département ajouté",
-        "Un nouveau département ajouté automatiquement au dashboard",
-        "Intégrer un nouveau département avec le minimum d'actions manuelles.",
-        "Faire dialoguer SQL, fichiers CSV, API locale et Streamlit sans "
-        "modifier le code du tableau de bord. Traitement local uniquement "
-        "(RGPD).",
-        "Enchaîner requête SQL, fichiers CSV, API FastAPI et Streamlit, "
-        "avec un pop-up de mise à jour (exemple : département 98).",
-        images=[
-            ("images/mise_en_situation_1.png", "Mise en situation : un nouveau département ajouté"),
-            ("images/mise_en_situation_2.png", "Mise à jour automatique de l'API"),
-            ("images/mise_en_situation_3.png", "Mise à jour automatique du Streamlit avec un pop-up"),
-            ("images/mise_en_situation_4.png", "Résultat : le département 98 est intégré à l'analyse"),
-            ("images/codage_api.png", "Explication du codage : API"),
-            ("images/recap_automatisation.png", "Récapitulatif de l'automatisation"),
-        ],
-        prefixe="auto"
-    )
-
-    section(
-        8,
-        "Machine Learning : Isolation Forest",
-        "Des profils atypiques que le score métier n'a pas ciblés",
-        "Faire ressortir des professionnels atypiques que le score métier "
-        "n'a pas ciblés.",
-        "Choisir la contamination : j'ai comparé « auto » et 0,05, et "
-        "retenu « auto » pour sa stabilité (92 % contre 88 %).",
-        "Un modèle non supervisé n'a pas de bonne réponse : on vérifie la "
-        "distribution des scores et la stabilité. Le ML complète la revue "
-        "humaine sans la remplacer.",
-        images=[
-            ("images/machine_learning1.png", "Machine Learning - Isolation Forest"),
-            ("images/machine_learning2.png", "Machine Learning - Distribution des scores"),
-            ("images/machine_learning2bis.png", "Machine Learning - Vérification"),
-            ("images/machine_learning3.png", "Machine Learning - Intégration Streamlit"),
-            ("images/machine_learning4.png", "Machine Learning - Codage"),
-            ("images/machine_learning5.png", "Machine Learning - Fonctionnement Isolation Forest"),
-            ("images/machine_learning6.png", "Machine Learning - Explication du codage"),
-        ],
-        prefixe="ml",
-        extra=chiffres_ml
-    )
-
-    st.header("Compétences mobilisées")
-
-    st.image(
-        "images/competences.png",
-        use_container_width=True
-    )
+    dossier = os.path.join(os.path.dirname(os.path.abspath(__file__)), "PORTFOCPAM")
+    ancien_dossier = os.getcwd()
+    os.chdir(dossier)
+    try:
+        runpy.run_path("cpamportfofo_app.py")
+    finally:
+        os.chdir(ancien_dossier)
 
 
 #  AFFICHAGE 
@@ -715,3 +274,15 @@ elif st.session_state.page == "zeloria":
     page_zeloria()
 else:
     page_accueil()
+
+
+# quand on change de page, on remonte tout en haut
+if st.session_state.get("remonter"):
+    components.html("""
+    <script>
+    var haut = window.parent.document.querySelector('[data-testid="stMain"]')
+            || window.parent.document.querySelector('section.main');
+    haut.scrollTo(0, 0);
+    </script>
+    """, height=0)
+    st.session_state.remonter = False
