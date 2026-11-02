@@ -138,7 +138,7 @@ def page_accueil():
         -webkit-text-fill-color:transparent;
         background-clip:text;
     ">
-    Portfolio Data Analyst
+    Portfolio
     </h1>
     """, unsafe_allow_html=True)
 
@@ -151,19 +151,22 @@ def page_accueil():
         margin-top:0px;
         margin-bottom:45px;
     ">
-    Analyse de données - Automatisation - Data Visualisation
+    Data - Automatisation - Développement web
     </h3>
     """, unsafe_allow_html=True)
 
     st.subheader("A propos")
 
     st.markdown("""
-Je m'appelle Julie Planchon, Data Analyst en formation, spécialisée dans l’analyse,
-l’automatisation et la création d’outils d’aide à la décision.
+Je m'appelle Julie Planchon, Data Analyst formée à la Guardia Cybersecurity School
+(Data Analyst et IA).
 
-Après plusieurs années d’expérience professionnelle, j’oriente aujourd’hui mon parcours
-vers la Data en combinant connaissance métier et compétences techniques, notamment en
-Python, SQL, Power BI, Excel/VBA et Streamlit.
+Après plusieurs années d’expérience professionnelle, j’oriente mon parcours vers
+la data et le développement. J’aime comprendre les besoins métier et les transformer
+en outils concrets : analyses, automatisations, applications et sites web.
+
+Je travaille avec Python, SQL, Power BI, Excel/VBA, Streamlit, PHP, HTML et CSS.
+Autodidacte et passionnée, je suis toujours partante pour apprendre un nouveau langage.
 """)
 
     st.divider()
@@ -227,6 +230,36 @@ Python, SQL, Power BI, Excel/VBA et Streamlit.
                 args=("cpam",)
             )
 
+    col3, col4 = st.columns(2)
+
+    with col3:
+
+        with st.container(border=True, height=300, key="carte_jfit"):
+
+            st.markdown(
+                '<div class="carte-titre">Site vitrine : club de sport JFIT</div>'
+                '<span class="pastille pastille-termine">Terminé</span>'
+                '<span class="pastille pastille-fictif">Projet fictif</span>',
+                unsafe_allow_html=True
+            )
+
+            st.markdown(
+                '<div class="carte-texte">'
+                'Créer le site d\'un club de sport avec un planning des cours '
+                'relié à une base de données.'
+                '</div>',
+                unsafe_allow_html=True
+            )
+
+            st.button(
+                "Ouvrir le projet",
+                key="btn_jfit",
+                use_container_width=True,
+                on_click=aller,
+                args=("jfit",)
+            )
+
+
 
 #  PAGE PROJET FIL ROUGE 
 
@@ -244,6 +277,24 @@ def page_cpam():
     os.chdir(dossier)
     try:
         runpy.run_path("cpamportfofo_app.py")
+    finally:
+        os.chdir(ancien_dossier)
+
+
+def page_jfit():
+
+    st.button(
+        "Retour à l'accueil",
+        key="btn_retour_jfit",
+        on_click=aller,
+        args=("accueil",)
+    )
+
+    dossier = os.path.join(os.path.dirname(os.path.abspath(__file__)), "jfit")
+    ancien_dossier = os.getcwd()
+    os.chdir(dossier)
+    try:
+        runpy.run_path("jfit_app.py")
     finally:
         os.chdir(ancien_dossier)
 
@@ -272,6 +323,8 @@ if st.session_state.page == "cpam":
     page_cpam()
 elif st.session_state.page == "zeloria":
     page_zeloria()
+elif st.session_state.page == "jfit":
+    page_jfit()
 else:
     page_accueil()
 
